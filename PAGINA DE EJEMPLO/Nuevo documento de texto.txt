@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double lado, area;
+
+            area = lado = 0; 
+
+            Console.Write("Ingrese la medida de un lado del cubo: ");
+            lado = double.Parse(Console.ReadLine());
+
+            area = 6 * (lado * lado);
+
+            Console.WriteLine("El area del cubo es {0} cm²", area);
+
+            Console.ReadKey();
+            
+        }
+    }
+}
