@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <center>
+      
+    <form method="post">
+        
+        <h1>Registrate</h1>
+            
+            <table border="4" bordercolor="black" bgcolor="#AAE07D" align="center" width="40%" height="200%">
+     
+            <tr>
+         
+            <td align="center"><label for="Nombre"><strong>Nombre y Apellido</strong></label></td>
+        
+            <td>
+                <input type="text" placeholder="Nombre y Apellido" name="Apellido">
+            </td>
+         
+            </tr>
+                 
+            <tr>
+                <td align="center"><label for="Email"><strong>Correo Electronico:</strong></label></td>
+                <td><input type="email" id="Correo" name="Correo" placeholder="Ejemplo@gmail.com" required></td>
+
+            </tr>
+            <tr>
+
+
+                <td align="center"><label for="Contraceña"><strong>Contraceña</strong></label></td>
+                <td><input type="password" id="Contraceña" name="Contraceña" placeholder="Contraceña"required></td>
+
+            </tr>
+            <tr>
+
+                <td align="center"><label for="Verificar"><strong>Repita la contraceña</strong></label></td>
+                <td><input type="password" id="Verificar" name="Verificar" placeholder="Verificar"required></td>
+
+            </tr>
+            <tr>
+         
+            <td align="center"><label for="Fecha"><strong>Fecha de Nacimiento:</strong></label></td>
+
+            <td><input type="date" name="fecha"></td>
+         
+            </tr>
+      
+            <tr>
+         
+                <td align="center"><label for="Fecha"><strong>Genero:</strong></label></td>
+                <td>
+                <select name="Sexo" id="Sexo">
+
+                    <option disabled selected>Seleccione uno</option>
+                    <option value="M">MASCULINO</option>
+                    <option value="F">FEMENINO</option>
+        
+                </select>
+                </td>
+            </tr>
+     
+            <tr>
+         
+            <td align="center"><label for="Nacionalidad"><strong>Nacionalidad:</strong></label></td>
+            
+            <td>
+
+            <select name="nacionalidad" id="nacionalidad">
+            
+            <option disabled selected>Seleccione su pais</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+            <option value="Ecuador">Ecuador</option>
+        
+            </td>
+         
+            </tr>
+
+            <tr>
+                <td align="center"><label for="Edad"><strong>Edad</strong></label></td>
+                <td><input type="number" id="Edad" name="Edad" placeholder="Ingrese su Edad" required></td>
+
+            </tr>
+            
+            <tr>
+                
+                <td align="center"><label for="Color"><strong>Color Favorito</strong></label></td>
+                <td><input type="color"></td>
+
+            </tr>
+            <tr>
+                <td align="center"><label for="Foto"><strong>Foto de Cedula</strong></label></td>
+                <td><input type="file"></td>
+
+            </tr>
+                    
+            <tr>
+            
+             <td colspan="2" align="center">
+             <button type="submit" value="Enviar">Enviar</button>
+             <button type="reset" value="Borrar">Borrar</button>
+             
+             </td>
+         
+            </tr>
+         
+        </table>
+    </form>
+    </center>
+</body>
+</html>
