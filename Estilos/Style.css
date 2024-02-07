@@ -10,36 +10,40 @@ body {
   a {
     color: #007bff; 
     text-decoration: none; 
+ }
   
   a:hover {
     color: #0056b3; 
   }
   
- 
+  /* Márgenes */
   body {
     margin: 20px; 
   }
   
   h1 {
     margin-top: 20px; 
+  }
   
   h2 {
     margin-top: 10px; 
   }
   
   p {
-    margin-bottom: 10px; 
-  }
+    margin-bottom: 10px;
+
+}
   
   /* Listas */
   ol {
-    list-style: none; /* Eliminar estilo de viñetas */
+    list-style: none; 
     padding: 0; 
   }
   
   li {
     display: inline-block; 
     margin-right: 10px; 
+
   }
   
   /* Imagen */
@@ -48,7 +52,7 @@ body {
     display: block; 
   }
   
-  
+  /* Enlaces de página web */
   p a {
     font-weight: bold; 
   }
@@ -56,6 +60,15 @@ body {
 
     border-radius: 15px;
     padding-bottom: 15px;
+    padding-top: 10px;
+    border-color: aquamarine;
+    background-color: beige;
+  }
+  .ENLACE{
+
+    border-radius: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
     border-color: aquamarine;
     background-color: beige;
   }
